@@ -75,7 +75,6 @@ class App extends Component {
           error: false
         });
         this.setState({ isLoading: ! this.state.isLoading })
-        console.log(data);
       })
       .catch(console.error)
   }

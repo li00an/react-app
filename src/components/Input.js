@@ -4,7 +4,7 @@ function Input(props){
     return(
         <div>
             <form onSubmit={props.handleSubmit}>
-                <div className="input-wrapper" style={{ border: props.searchOk === true ? '0.5px solid #7dcfd1' : (props.searchOk === false ? '0.5px solid #f05656' : null ) }}>
+                <div className="input-wrapper" style={{ border: props.searchOk === true ? '0.5px solid cadetblue' : (props.searchOk === false ? '0.5px solid #f05656' : null ) }}>
                     <input 
                         type="text" 
                         className="input-style"                    
