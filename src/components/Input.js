@@ -8,7 +8,7 @@ function Input(props){
                     <input 
                         type="text" 
                         className="input-style"                    
-                        placeholder="Search movies.." 
+                        placeholder="Search shows.." 
                         value={props.value} onChange={props.handleChange} 
                     />
                     <button id="bold" className="button-style" type="submit"><i className='fa fa-search'></i></button>

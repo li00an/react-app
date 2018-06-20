@@ -38,10 +38,8 @@ class App extends Component {
     for (var i = 0; i < this.state.items.length; i++) {
       if (
         this.state.items[i].name.toLowerCase().indexOf(this.state.value.toLowerCase()) !== -1) {
-        console.log('MATCH!');
         // det vi hittar lägger vi i variabeln searchResult
         searchResult.push(this.state.items[i]);
-        console.log(searchResult);
       } else {  
         console.log('No matches on your search, try again');
       }
