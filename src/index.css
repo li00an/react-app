@@ -18,21 +18,17 @@ body {
 
 .first-title {
   background: cornsilk;
-  padding: 4px;
-  position: absolute;
+  padding: 6px;
   font-size: 27px;
   color: cadetblue;
   font-family: serif;
 }
 
 .second-title {
-  position: relative;
-    top: 4px;
-    left: 51px;
-    font-size: 29px;
-    font-weight: normal;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+  font-size: 29px;
+  font-weight: normal;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
 }
 
 /* ******* LOADER ******* */
