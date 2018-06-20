@@ -6,7 +6,7 @@ body {
 
 /* ******* HEADER ******* */
 .header {
-  background: turquoise;
+  background: cadetblue;
   padding: 10px;
   margin-bottom: 20px;
   color: cornsilk;
@@ -35,7 +35,7 @@ body {
 .loading {
   font-size: 1.5rem;
   font-weight: bold;
-  color: turquoise;
+  color: cadetblue;
 }
 
 /* ******* INPUT ******* */
@@ -59,7 +59,7 @@ body {
 .button-style {
   border-radius: 0px 5px 5px 0px;
   border: none;
-  background-color: turquoise;
+  background-color: cadetblue;
   padding: 9px;
   margin-left: 2px;
   transition: background-color 0.3s ease-in-out;
@@ -68,7 +68,7 @@ body {
   width: 36px;
 }
 .button-style:hover {
-  background-color: turquoise;
+  background-color: #7dcfd1;
 }
 
 .button-style .fa-search {
@@ -110,7 +110,7 @@ body {
 }
 
 .search-rating {
-  background: #3ae5d4;
+  background: #7dcfd1;
   width: 22px;
   height: 22px;
   display: flex;
