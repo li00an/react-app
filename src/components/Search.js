@@ -9,7 +9,7 @@ function Search(props) {
                     <div className="search-result" key={i}>
                         <div className="search-item">
                             <p>{searchItem.name}</p>
-                            <div className="test">
+                            <div className="search-box">
                                 <img className="search-image" src={searchItem.image.medium} alt={searchItem.name} />
                                 {searchItem.rating.average ? <div className="search-rating">{searchItem.rating.average}</div> : ''}
                             </div>
